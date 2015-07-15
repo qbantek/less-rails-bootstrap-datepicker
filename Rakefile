@@ -19,10 +19,10 @@ task :update do
     system("cd bootstrap-datepicker-datepicker-src && git checkout #{checkout_branch}")
   end
 
-  system('cp bootstrap-datepicker-datepicker-src/build/build.less                             app/assets/stylesheets/twitters/bootstrap-datepicker.less')
-  system('cp bootstrap-datepicker-datepicker-src/build/build3.less                            app/assets/stylesheets/twitters/bootstrap-datepicker3.less')
-  system('cp bootstrap-datepicker-datepicker-src/dist/js/bootstrap-datepicker.js   app/assets/javascripts/twitter/bootstrap-datepicker/core.js')
-  system('cp bootstrap-datepicker-datepicker-src/js/locales/*.js                              app/assets/javascripts/twitter/bootstrap-datepicker/locales/')
+  system('cp bootstrap-datepicker-src/build/build.less                  app/assets/stylesheets/twitters/bootstrap-datepicker.less')
+  system('cp bootstrap-datepicker-src/build/build3.less                 app/assets/stylesheets/twitters/bootstrap-datepicker3.less')
+  system('cp bootstrap-datepicker-src/dist/js/bootstrap-datepicker.js   app/assets/javascripts/twitter/bootstrap-datepicker/core.js')
+  system('cp bootstrap-datepicker-src/js/locales/*.js                   app/assets/javascripts/twitter/bootstrap-datepicker/locales/')
   system('git status')
 
   puts "\n"
