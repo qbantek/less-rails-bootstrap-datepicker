@@ -28,7 +28,7 @@ task :update do
   system('git status')
 
   puts "\n"
-  puts "bootstrap-datepicker version:       #{JSON.parse(File.read('./bootstrap-datepicker-src/bower.json'))['version']}"
+  puts "bootstrap-datepicker version:            #{JSON.parse(File.read('./bootstrap-datepicker-src/bower.json'))['version']}"
   puts "less-rails-bootstrap-datepicker version: #{Less::Rails::Bootstrap::Datepicker::VERSION}"
 end
 
