@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'less/rails/bootstrap-datepicker/datepicker/version'
+require 'less/rails/bootstrap/datepicker/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'less-rails-bootstrap-datepicker-datepicker'
+  spec.name          = 'less-rails-bootstrap-datepicker'
   spec.version       = Less::Rails::Bootstrap::Datepicker::VERSION
   spec.authors       = ['Erich Quintero']
   spec.email         = ['qbantek@gmail.com']

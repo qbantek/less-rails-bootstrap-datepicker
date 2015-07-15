@@ -32,7 +32,7 @@ end
 
 desc 'Build'
 task 'build' do
-  system('gem build less-rails-bootstrap-datepicker-datepicker.gemspec')
+  system('gem build less-rails-bootstrap-datepicker.gemspec')
 end
 
 desc 'Build and publish the gem'
