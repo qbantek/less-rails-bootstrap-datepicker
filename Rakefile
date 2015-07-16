@@ -12,11 +12,11 @@ task :update do
     checkout_branch = '`git describe --abbrev=0`'
   end
 
-  if Dir.exist?('bootstrap-datepicker-datepicker-src')
-    system("cd bootstrap-datepicker-datepicker-src && git checkout master && git pull && git checkout #{checkout_branch}")
+  if Dir.exist?('bootstrap-datepicker-src')
+    system("cd bootstrap-datepicker-src && git checkout master && git pull && git checkout #{checkout_branch}")
   else
     system('git clone git://github.com/eternicode/bootstrap-datepicker.git bootstrap-datepicker-src')
-    system("cd bootstrap-datepicker-datepicker-src && git checkout #{checkout_branch}")
+    system("cd bootstrap-datepicker-src && git checkout #{checkout_branch}")
   end
 
   system('cp bootstrap-datepicker-src/build/*.less                      app/assets/frameworks/qbantek/bootstrap-datepicker/build/')
