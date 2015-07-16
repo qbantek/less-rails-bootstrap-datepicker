@@ -22,4 +22,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'pry', '~> 0.10.1'
   spec.add_development_dependency 'json', '~> 1.8'
+  spec.add_development_dependency 'rails',  ['>= 3.1', '<= 4.2']
+  spec.add_runtime_dependency     'less-rails', ['>= 2.6', '<= 2.8']
 end
