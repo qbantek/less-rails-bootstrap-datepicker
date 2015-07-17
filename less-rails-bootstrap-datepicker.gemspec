@@ -5,13 +5,13 @@ require 'less/rails/bootstrap/datepicker/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'less-rails-bootstrap-datepicker'
-  spec.version       = Less::Rails::Bootstrap::Datepicker::VERSION
+  spec.version       = "#{Less::Rails::Bootstrap::Datepicker::VERSION}.1"
   spec.authors       = ['Erich Quintero']
   spec.email         = ['qbantek@gmail.com']
 
   spec.summary       = %q{A date picker for Twitter Bootstrap.}
   spec.description   = %q{Integrates a datepicker with Rails assets pipeline and includes the LESS source files.}
-  spec.homepage      = 'https://github.com/qbantek/less-rails-bootstrap-datepicker-datepicker'
+  spec.homepage      = 'https://github.com/qbantek/less-rails-bootstrap-datepicker'
   spec.license       = 'MIT'
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = 'exe'
