@@ -5,7 +5,7 @@ require 'less/rails/bootstrap/datepicker/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'less-rails-bootstrap-datepicker'
-  spec.version       = "#{Less::Rails::Bootstrap::Datepicker::VERSION}.1"
+  spec.version       = "#{Less::Rails::Bootstrap::Datepicker::VERSION}"
   spec.authors       = ['Erich Quintero']
   spec.email         = ['qbantek@gmail.com']
 
